@@ -1,0 +1,113 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\ZenCorp UG\\Software\\HotChocolate Bug With singleton Services\\HotChocolateSingletonBug\\HotChocolateSingletonBug\\HotChocolateSingletonBug.csproj": {}
+  },
+  "projects": {
+    "F:\\ZenCorp UG\\Software\\HotChocolate Bug With singleton Services\\HotChocolateSingletonBug\\HotChocolateSingletonBug\\HotChocolateSingletonBug.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\ZenCorp UG\\Software\\HotChocolate Bug With singleton Services\\HotChocolateSingletonBug\\HotChocolateSingletonBug\\HotChocolateSingletonBug.csproj",
+        "projectName": "HotChocolateSingletonBug",
+        "projectPath": "F:\\ZenCorp UG\\Software\\HotChocolate Bug With singleton Services\\HotChocolateSingletonBug\\HotChocolateSingletonBug\\HotChocolateSingletonBug.csproj",
+        "packagesPath": "C:\\Users\\Adrian\\.nuget\\packages\\",
+        "outputPath": "F:\\ZenCorp UG\\Software\\HotChocolate Bug With singleton Services\\HotChocolateSingletonBug\\HotChocolateSingletonBug\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Adrian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[13.7.0, )"
+            },
+            "HotChocolate.AspNetCore.Abstractions": {
+              "target": "Package",
+              "version": "[10.5.5, )"
+            },
+            "HotChocolate.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[13.7.0, )"
+            },
+            "HotChocolate.Data": {
+              "target": "Package",
+              "version": "[13.7.0, )"
+            },
+            "HotChocolate.Data.EntityFramework": {
+              "target": "Package",
+              "version": "[13.7.0, )"
+            },
+            "HotChocolate.Execution": {
+              "target": "Package",
+              "version": "[13.7.0, )"
+            },
+            "HotChocolate.Execution.Abstractions": {
+              "target": "Package",
+              "version": "[13.7.0, )"
+            },
+            "HotChocolate.Pagination": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "HotChocolate.Server": {
+              "target": "Package",
+              "version": "[10.5.5, )"
+            },
+            "HotChocolate.Types.Analyzers": {
+              "target": "Package",
+              "version": "[13.7.0, )"
+            },
+            "HotChocolate.Types.Selections": {
+              "target": "Package",
+              "version": "[10.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

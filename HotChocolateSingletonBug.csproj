@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="HotChocolate.AspNetCore" Version="13.7.0"/>
+        <PackageReference Include="HotChocolate.AspNetCore.Abstractions" Version="10.5.5"/>
+        <PackageReference Include="HotChocolate.AspNetCore.Authorization" Version="13.7.0"/>
+        <PackageReference Include="HotChocolate.Data" Version="13.7.0"/>
+        <PackageReference Include="HotChocolate.Data.EntityFramework" Version="13.7.0"/>
+        <PackageReference Include="HotChocolate.Execution" Version="13.7.0"/>
+        <PackageReference Include="HotChocolate.Execution.Abstractions" Version="13.7.0"/>
+        <PackageReference Include="HotChocolate.Pagination" Version="1.0.1"/>
+        <PackageReference Include="HotChocolate.Server" Version="10.5.5"/>
+        <PackageReference Include="HotChocolate.Types.Analyzers" Version="13.7.0"/>
+        <PackageReference Include="HotChocolate.Types.Selections" Version="10.5.5"/>
+    </ItemGroup>
+
+</Project>
