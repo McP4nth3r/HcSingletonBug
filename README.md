@@ -24,6 +24,15 @@ it should prints the following at response:
   }
 }
 ```
+but it prints:
+```json
+{
+  "data": {
+    "test": []
+  }
+}
+```
+
 5. Press key on Console
 
 it writes the following to the console:
